@@ -1,0 +1,221 @@
+*{
+    padding: 0PX;
+    margin: 0PX;
+}
+.navbar{
+    height: 150px;
+    background-color: orange;
+
+}
+.logo{
+    float: left;
+    font-size: 50px;
+    height: 150px;
+    width: 200px;
+    color: green;
+    background-color: black;
+}
+.caps{
+    font-size: 20px;
+    display: block;
+}
+.menu{
+    margin-left: 110px;
+}
+.menu ul{
+    display: inline-flex;
+    gap: 30px;
+    padding-top: 100px;
+    padding-left: 120px;
+}
+.menu ul li{
+    list-style: none;
+    font-weight: bolder;
+}
+.menu ul li:hover{
+    background-color:rgba(0, 0, 0, 0.158) ;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-left: 4px;
+}
+menu ul li a:hover{
+    color: brown;
+}
+.dropdowns{
+    background-color:white;
+    position: absolute;
+    display: none;
+}
+.dropdowns ul{
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    
+}
+.dropdowns ul li{
+    
+    padding-left: 0px; 
+    font-size: 20px;
+    margin-top: 10px; 
+}
+.menu ul li:hover .dropdowns{
+    display: block;
+}
+.dropdown{
+    background-color: rgba(235, 227, 227, 0.589);
+    position: absolute;
+    display: none;
+}
+.dropdown ul{
+    display: block;
+    padding: 0px;
+    position: relative;
+    color: rgba(212, 203, 203, 0.308);
+}
+.dropdown ul li{
+    padding-left: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-indent: 20px;
+    
+}
+.menu ul li:hover .dropdown{
+    display: block;
+}
+.sec1{
+    height: 500px;
+    width: 800px;
+    background-image: url(pic/a96dde8e-0ebd-4987-b65b-3882fd298e0a.jpg);
+    background-repeat: no-repeat;
+    float: inline-end;
+    padding-right: 0px;
+
+}
+.line1{
+    font-size: 20px;
+}
+.w1 a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.w1 a:hover{
+    color: greenyellow;
+}
+.sec2{
+    background-image: url(my.jpg);
+    width: auto;
+    height: 576px;
+    background-image: auto;
+    margin-right: 0px;
+    background-repeat: no-repeat;
+    backface-visibility:visible;
+    background-size: cover;
+}
+.section1{
+    height: 400px;
+}
+.hughes{
+    float: left;
+    width: 500px;
+    font-size: 30px;
+    color: rgba(13, 235, 235, 0.671);
+}
+.news{
+    float: inline-end;
+    font-size: 25px;
+    padding-right: 100px;
+    padding-top: 450px;
+}
+.news a{
+    text-decoration: none;
+}
+.hard{
+    padding-left: 1030px;
+    font-size: 18px;
+    width: auto;
+}.omanyala {
+    font-size: 25px;
+}
+.omanyala a{
+    text-decoration: none;
+}
+.omanyala a:hover{
+    color: green;
+}
+.video{
+    height: 400px;
+    width: auto;
+}
+.vdo{
+    height: 50px;
+    background-color: black;
+    width: auto;
+    color: green;
+    font-size: 30px;
+    padding-left: 500px;
+}
+.section4{
+    height:100px;
+    width: 1100px;
+    background-color: brown;
+}
+.footer{
+    height: 100px;
+    width: auto;
+    background-color:white;
+    margin-left: 100px;
+    margin-top: 360px;
+    display: inline-flex;
+    gap: 100px;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.follow{
+    font-size: 20px;
+    display: flex;
+}
+.fa-square-twitter{
+    font-size: 70px;
+    color: skyblue;
+}
+.fa-square-instagram{
+    font-size: 70px;
+    color: brown;
+}
+.fa-square-facebook{
+    font-size: 70px;
+    color: blue;
+}
+.fa-youtube{
+    font-size: 70px;
+    color: red;
+}
+.fa-tiktok{
+    font-size: 70px;
+    color: black;
+}
+.footer1{
+    width: auto;
+    background-color: blueviolet;
+}
+.rege{
+    background-color: rgba(0, 0, 0, 0.527);
+    height: 100px;
+    width: auto;
+    font-size: 30px;
+}
+.rege a{
+    text-decoration: none;
+}
+.rege a:hover{
+    color: brown;
+}
+.fotter{
+    font-size: 20px;
+    padding-left: 500px;
+    margin-top: 40px;
+    color: aquamarine;
+}

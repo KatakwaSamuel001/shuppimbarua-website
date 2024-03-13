@@ -1,0 +1,15 @@
+.reg{
+    color: brown;
+    font-size: 25px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.473);
+}
+form{
+    font-size: 20px;
+}
+form .a{
+    text-decoration: none;
+    list-style: none;
+    
+}
